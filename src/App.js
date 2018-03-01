@@ -5,8 +5,9 @@ import Solutions from './Solutions'
 class App extends Component {
     constructor() {
         super();
-        this.state = {year: 2015, day: 1, answer: "..."};
         this.solutions = new Solutions();
+        const day = Math.max(...Object.keys(this.solutions.getCollection()));
+        this.state = {year: 2015, day: day, answer: "..."};
     }
     changeYearHandler(year) {
         this.setState({year: parseInt(year, 10)});
