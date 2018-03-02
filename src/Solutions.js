@@ -14,6 +14,13 @@ class Solutions {
                    require('./puzzles/puzzle_2015_2_0'),
                    require('./puzzles/puzzle_2015_2_1')
                    ]
+           },
+           3 : {
+               description: "--- Day 3: Perfectly Spherical Houses in a Vacuum ---",
+               solutions: [
+                   require('./puzzles/puzzle_2015_3_0'),
+                   require('./puzzles/puzzle_2015_3_1')
+               ]
            }
        }
    }
