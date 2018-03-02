@@ -12,7 +12,7 @@ class Solutions {
                description: "--- Day 2: I Was Told There Would Be No Math ---",
                solutions: [
                    require('./puzzles/puzzle_2015_2_0'),
-                   require('./puzzles/puzzle_2015_2_0')
+                   require('./puzzles/puzzle_2015_2_1')
                    ]
            }
        }
