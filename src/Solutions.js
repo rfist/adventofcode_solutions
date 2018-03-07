@@ -21,6 +21,13 @@ class Solutions {
                    require('./puzzles/puzzle_2015_3_0'),
                    require('./puzzles/puzzle_2015_3_1')
                ]
+           },
+           4: {
+               description: "--- Day 4: The Ideal Stocking Stuffer ---",
+               solutions: [
+                   require('./puzzles/puzzle_2015_4_0'),
+                   require('./puzzles/puzzle_2015_4_1')
+               ]
            }
        }
    }
