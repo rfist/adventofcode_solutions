@@ -28,6 +28,13 @@ class Solutions {
                    require('./puzzles/puzzle_2015_4_0'),
                    require('./puzzles/puzzle_2015_4_1')
                ]
+           },
+           5: {
+               description: "--- Day 5: Doesn't He Have Intern-Elves For This? ---",
+               solutions: [
+                   require('./puzzles/puzzle_2015_5_0'),
+                   require('./puzzles/puzzle_2015_5_1')
+               ]
            }
        }
    }
