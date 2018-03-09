@@ -35,7 +35,14 @@ class Solutions {
                    require('./puzzles/puzzle_2015_5_0'),
                    require('./puzzles/puzzle_2015_5_1')
                ]
-           }
+           },
+          6: {
+              description: "--- Day 6: Probably a Fire Hazard ---",
+              solutions: [
+                  require('./puzzles/puzzle_2015_6_0'),
+                  require('./puzzles/puzzle_2015_6_1')
+              ]
+          }
        }
    }
 
