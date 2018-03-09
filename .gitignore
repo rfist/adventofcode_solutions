@@ -22,4 +22,5 @@ yarn-error.log*
 .idea
 adventofcode_solutions.iml
 package-lock.json
+yarn.lock
 
