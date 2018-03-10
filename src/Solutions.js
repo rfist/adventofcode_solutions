@@ -42,6 +42,13 @@ class Solutions {
                   require('./puzzles/puzzle_2015_6_0'),
                   require('./puzzles/puzzle_2015_6_1')
               ]
+          },
+          7 : {
+              description: "--- Day 7: Some Assembly Required ---",
+              solutions: [
+                  input => require('./puzzles/puzzle_2015_7_0')(input).a.getValue(),
+                  input => require('./puzzles/puzzle_2015_7_0')(input).a.getValue()
+              ]
           }
        }
    }
