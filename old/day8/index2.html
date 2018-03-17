@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 8</title>
+</head>
+<body>
+<script language="JavaScript">
+    console.log("start");
+    var input, totalCharactersInString = 0, totalCharactersInMemory = 0 ;
+
+    function parse() {
+        input = (document.getElementById("input_text").value).split('\n');
+        console.log(input);
+        analyze();
+    }
+
+    function analyze() {
+        for (var i = 0; i < input.length; i++) {
+            var line = input[i];
+            var lineLength = line.length;
+            totalCharactersInString += line.length;
+            var newLine = "";
+            for (var l = 0; l < line.length; l++) {
+                if (line[l] == '"' || line[l] == '\\' ) {
+                    newLine += '\\';
+                }
+                newLine += '' + line[l];
+            }
+            newLine = '"' + newLine + '"';
+            totalCharactersInMemory += newLine.length;
+            console.log(line, newLine);
+        }
+        console.log("totalCharactersInString", totalCharactersInString);
+        console.log("totalCharactersInMemory", totalCharactersInMemory);
+        console.log("result", totalCharactersInMemory - totalCharactersInString );
+    }
+
+</script>
+<p>Input<Br>
+    <textarea id="input_text" name="comment" cols="20" rows="30"></textarea></p>
+<input type="button" value="Go!" onclick="parse()">
+</body>
+</html>
