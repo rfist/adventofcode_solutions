@@ -49,7 +49,14 @@ class Solutions {
                   input => require('./puzzles/puzzle_2015_7_0')(input).a.getValue(),
                   input => require('./puzzles/puzzle_2015_7_0')(input).a.getValue()
               ]
-          }
+          },
+           8: {
+               description: "--- Day 8: Matchsticks ---",
+               solutions: [
+                   require('./puzzles/puzzle_2015_8_0'),
+                   require('./puzzles/puzzle_2015_8_1')
+               ]
+           }
        }
    }
 
