@@ -56,6 +56,13 @@ class Solutions {
                    require('./puzzles/puzzle_2015_8_0'),
                    require('./puzzles/puzzle_2015_8_1')
                ]
+           },
+           9: {
+               description: "--- Day 9: All in a Single Night ---",
+               solutions: [
+                   require('./puzzles/puzzle_2015_9_0'),
+                   require('./puzzles/puzzle_2015_9_1')
+               ]
            }
        }
    }
