@@ -63,6 +63,13 @@ class Solutions {
                    require('./puzzles/puzzle_2015_9_0'),
                    require('./puzzles/puzzle_2015_9_1')
                ]
+           },
+           10: {
+               description: "--- Day 10: Elves Look, Elves Say ---",
+               solutions: [
+                   i => require('./puzzles/puzzle_2015_10_0')(i, 40),
+                   i => require('./puzzles/puzzle_2015_10_0')(i, 50)
+               ]
            }
        }
    }
