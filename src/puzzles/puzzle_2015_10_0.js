@@ -1,4 +1,4 @@
-function execute(input, repeatAmount = 0) {
+function execute(input, repeatAmount = 0, returnLength = true) {
     const lookAndSay = input => {
         let inputArray = ('' + input).split('');
         let finalResult = [];
@@ -30,7 +30,11 @@ function execute(input, repeatAmount = 0) {
         repeatAmount--;
     } while (repeatAmount > 0);
 
+  if (returnLength) {
     return input.length
+  } else {
+    return input;
+  }
 }
 
 module.exports = execute;
