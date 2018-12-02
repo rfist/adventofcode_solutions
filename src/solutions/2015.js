@@ -69,5 +69,12 @@ module.exports = {
                 i => require('../puzzles/puzzle_2015_10_0')(i, 40),
                 i => require('../puzzles/puzzle_2015_10_0')(i, 50)
             ]
+        },
+        11: {
+            description: "--- Day 11: Corporate Policy ---",
+            solutions: [
+                require('../puzzles/puzzle_2015_11_0').exec,
+                require('../puzzles/puzzle_2015_11_0').exec
+            ]
         }
     }
