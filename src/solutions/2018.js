@@ -9,8 +9,8 @@ module.exports = {
     2 : {
         description: "--- Day 2: Inventory Management System ---",
         solutions: [
-            require('../puzzles/puzzle_2015_2_0'),
-            require('../puzzles/puzzle_2015_2_1')
+            require('../puzzles/puzzle_2018_2_0'),
+            require('../puzzles/puzzle_2018_2_1')
         ]
     },
 }
