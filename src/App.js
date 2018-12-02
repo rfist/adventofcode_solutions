@@ -10,7 +10,9 @@ class App extends Component {
         this.state = {year: 2015, day: day, answer: "..."};
     }
     changeYearHandler(year) {
-        this.setState({year: parseInt(year, 10)});
+        year = parseInt(year, 10);
+        this.solutions.setYear(year);
+        this.setState({year});
         console.log('current year is', year)
     }
     changeDayHandler(day) {
@@ -39,6 +41,7 @@ class App extends Component {
             <div className="App">
                 <header><div><h1 className="title-global"><a href="/">Advent of Code</a></h1></div></header>
                 <a onClick={() => this.changeYearHandler("2015")}> [2015]</a>
+                <a onClick={() => this.changeYearHandler("2018")}> [2018]</a>
                 <hr/>
                 <div className="container">
                     <div className="row">
