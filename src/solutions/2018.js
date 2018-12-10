@@ -26,5 +26,20 @@ module.exports = {
             require('../puzzles/puzzle_2018_4_0'),
             require('../puzzles/puzzle_2018_4_1'),
         ]
+    },
+    5: {
+        description: "--- Day 5: Alchemical Reduction ---",
+        solutions: [
+            require('../puzzles/puzzle_2018_5_0'),
+            require('../puzzles/puzzle_2018_5_1'),
+        ]
+    },
+    6: {
+        description: "--- Day 6: Chronal Coordinates ---",
+        solutions: [
+            require('../puzzles/puzzle_2018_6_0'),
+            require('../puzzles/puzzle_2018_6_1'),
+        ]
     }
+
 };
