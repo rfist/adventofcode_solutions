@@ -40,6 +40,13 @@ module.exports = {
             require('../puzzles/puzzle_2018_6_0'),
             require('../puzzles/puzzle_2018_6_1'),
         ]
+    },
+    8: {
+        description: "--- Day 8: Memory Maneuver ---",
+        solutions: [
+            require('../puzzles/puzzle_2018_8_0'),
+            require('../puzzles/puzzle_2018_8_1'),
+        ]
     }
 
 };
