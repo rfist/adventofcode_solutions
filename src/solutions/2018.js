@@ -47,6 +47,13 @@ module.exports = {
             require('../puzzles/puzzle_2018_8_0'),
             require('../puzzles/puzzle_2018_8_1'),
         ]
+    },
+    9: {
+        description: "--- Day 9: Marble Mania ---",
+        solutions: [
+            require('../puzzles/puzzle_2018_9_0'),
+            require('../puzzles/puzzle_2018_9_0'),
+        ]
     }
 
 };
